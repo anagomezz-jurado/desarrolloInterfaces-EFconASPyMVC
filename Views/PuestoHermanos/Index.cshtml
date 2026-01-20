@@ -1,0 +1,53 @@
+﻿@model IEnumerable<EFconASPyMVC.Models.PuestoHermano>
+
+@{
+    ViewData["Title"] = "Puesto Hermanos";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaFin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Puesto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hermano)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaInicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaFin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Puesto.NombrePuesto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hermano.Nombre)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new { item.PuestoId, item.HermanoId }) |
+                    @Html.ActionLink("Details", "Details", new { item.PuestoId, item.HermanoId })|
+                    @Html.ActionLink("Delete", "Delete", new { item.PuestoId, item.HermanoId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
