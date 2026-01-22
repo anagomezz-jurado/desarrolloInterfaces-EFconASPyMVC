@@ -56,9 +56,9 @@ namespace EFconASPyMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,NombrePuesto,Descripcion")] Puesto puesto)
         {
-                _context.Add(puesto);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+            _context.Add(puesto);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Puestoes/Edit/5
@@ -88,11 +88,8 @@ namespace EFconASPyMVC.Controllers
             {
                 return NotFound();
             }
-
-
-                    _context.Update(puesto);
-                    await _context.SaveChangesAsync();
-               
+                _context.Update(puesto);
+                await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
         }
 

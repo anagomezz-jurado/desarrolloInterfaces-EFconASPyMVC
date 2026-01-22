@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EFconASPyMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da331ae2d2aac44016bd9ade2f21ffdc42356a42")]
 [assembly: System.Reflection.AssemblyProductAttribute("EFconASPyMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EFconASPyMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

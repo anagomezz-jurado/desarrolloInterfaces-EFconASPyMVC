@@ -11,7 +11,7 @@
         public string Descripcion { get; set; }
 
 
-        //Clave foránea
+        //Propiedad de navegacional para desplegable
         public List<PuestoHermano> PuestosHermanos { get; set; }
 
     }

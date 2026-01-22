@@ -3,8 +3,8 @@
 3. Pongo los siguientes comandos para subirlo la primera vez:
 - git init
 - git add .
-- git commit -m "Primer commit"
-- https://github.com/anagomezz-jurado/desarrolloInterfaces-EFconASPyMVC.git
+- git commit -m Apartado a"
+- git remote add origin https://github.com/anagomezz-jurado/desarrolloInterfaces-EFconASPyMVC.git
 - SUBIR PROYECTO
 	- git branch -M main
 	- git push -u origin main
@@ -12,5 +12,5 @@
 
 Ahora para subir cambios o modificaciones y que este completo pongo los siguientes comandos una vez dentro de la carpeta
 - git add .
-- git commit -m "Apartado a"
+- git commit -m "Usando EF convencional"
 - git push

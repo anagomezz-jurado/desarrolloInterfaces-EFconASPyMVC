@@ -15,6 +15,9 @@ namespace EFconASPyMVC.Context
             {
                 return; // BD ya ha sido inicializada
             }
+
+
+
             //Añado Hermandaddes 
             var hermandades = new Hermandad[]
             {
@@ -23,16 +26,13 @@ namespace EFconASPyMVC.Context
                  new Hermandad{Nombre="Hdad. de los Dolores", Cif="C34567890", FechaFundacion="1880-09-20", Ciudad="Málaga"},
                  new Hermandad{Nombre="Hdad. de la Soledad", Cif="D45678901", FechaFundacion="1910-12-05", Ciudad="Córdoba"},
                  new Hermandad{Nombre="Hdad. del Santo Cristo", Cif="E56789012", FechaFundacion="1905-04-12", Ciudad="Granada"},
-                            };
-
+            };
             foreach (Hermandad i in hermandades)
             {
                 context.Hermandad.Add(i);
             }
             context.SaveChanges();
 
-
-         
 
             //Añado Hermanos
             var hermanos = new Hermano[]
@@ -45,58 +45,54 @@ namespace EFconASPyMVC.Context
                  new Hermano{Nombre = "Peggy",Apellidos = "Justice",DNI = "67890123F",FechaNacimiento = "1996-12-01",Telefono = "600678901", Email = "peggy@example.com", PuestosHermanos = new List<PuestoHermano>(), HermandadId = 1},
                  new Hermano{Nombre = "Laura",Apellidos = "Norman",DNI = "78901234G",FechaNacimiento = "1995-05-25",Telefono = "600789012",Email = "laura@example.com",PuestosHermanos = new List<PuestoHermano>(), HermandadId = 3}
             };
-
-
             foreach (Hermano h in hermanos)
             {
                 context.Hermano.Add(h);
             }
-
-
             context.SaveChanges();
+
 
             //Añado Tunicas
             var tunicas = new Tunica[]
             {
-    new Tunica { Color="Rojo", Talla="M", Material="Algodón", FechaEntrega="2026-01-20", Estado=true, HermanoId=2 },
-    new Tunica { Color="Azul", Talla="L", Material="Seda", FechaEntrega="2026-01-22", Estado=true, HermanoId=3 },
-    new Tunica { Color="Blanco", Talla="S", Material="Lino", FechaEntrega="2026-01-25", Estado=false, HermanoId=1 },
-    new Tunica { Color="Verde", Talla="XL", Material="Poliéster", FechaEntrega="2026-01-28", Estado=true, HermanoId=4 },
-    new Tunica { Color="Negro", Talla="M", Material="Algodón", FechaEntrega="2026-02-01", Estado=false, HermanoId=2 },
+                new Tunica { Color="Rojo", Talla="M", Material="Algodón", FechaEntrega="2026-01-20", Estado=true, HermanoId=2 },
+                new Tunica { Color="Azul", Talla="L", Material="Seda", FechaEntrega="2026-01-22", Estado=true, HermanoId=3 },
+                new Tunica { Color="Blanco", Talla="S", Material="Lino", FechaEntrega="2026-01-25", Estado=false, HermanoId=1 },
+                new Tunica { Color="Verde", Talla="XL", Material="Poliéster", FechaEntrega="2026-01-28", Estado=true, HermanoId=4 },
+                new Tunica { Color="Negro", Talla="M", Material="Algodón", FechaEntrega="2026-02-01", Estado=false, HermanoId=2 },
             };
-
-
-
             foreach (Tunica h in tunicas)
             {
                 context.Tunica.Add(h);
             }
-
             context.SaveChanges();
+
+
             //Añado Puesto
             var puestos = new Puesto[]
-{
-            new Puesto{NombrePuesto="Presidente", Descripcion="Dirige la hermandad", PuestosHermanos = new List<PuestoHermano>()},
-            new Puesto{NombrePuesto="Vicepresidente", Descripcion="Sustituye al presidente", PuestosHermanos = new List<PuestoHermano>()},
-            new Puesto{NombrePuesto="Secretario", Descripcion="Gestiona documentación y actas", PuestosHermanos = new List<PuestoHermano>()},
-            new Puesto{NombrePuesto="Tesorero", Descripcion="Gestiona las finanzas", PuestosHermanos = new List<PuestoHermano>()},
-            new Puesto{NombrePuesto="Capellán", Descripcion="Asesora en temas religiosos", PuestosHermanos = new List<PuestoHermano>()},
-            new Puesto{NombrePuesto="Vocal", Descripcion="Colabora en distintas comisiones", PuestosHermanos = new List<PuestoHermano>()},
-            new Puesto{NombrePuesto="Hermano Mayor", Descripcion="Representante máximo de la hermandad", PuestosHermanos = new List<PuestoHermano>()}
-        };
-
+            {
+                new Puesto{NombrePuesto="Presidente", Descripcion="Dirige la hermandad", PuestosHermanos = new List<PuestoHermano>()},
+                new Puesto{NombrePuesto="Vicepresidente", Descripcion="Sustituye al presidente", PuestosHermanos = new List<PuestoHermano>()},
+                new Puesto{NombrePuesto="Secretario", Descripcion="Gestiona documentación y actas", PuestosHermanos = new List<PuestoHermano>()},
+                new Puesto{NombrePuesto="Tesorero", Descripcion="Gestiona las finanzas", PuestosHermanos = new List<PuestoHermano>()},
+                new Puesto{NombrePuesto="Capellán", Descripcion="Asesora en temas religiosos", PuestosHermanos = new List<PuestoHermano>()},
+                new Puesto{NombrePuesto="Vocal", Descripcion="Colabora en distintas comisiones", PuestosHermanos = new List<PuestoHermano>()},
+                new Puesto{NombrePuesto="Hermano Mayor", Descripcion="Representante máximo de la hermandad", PuestosHermanos = new List<PuestoHermano>()}
+            };
             foreach (Puesto d in puestos)
             {
                 context.Puesto.Add(d);
             }
             context.SaveChanges();
+
+
             //Añado PuestoHermano
             var puestosHermanos = new PuestoHermano[]
-        {
-                 new PuestoHermano { PuestoId = 1, HermanoId = 3, FechaInicio = "2023-01-01", FechaFin = "2023-12-31" },
-                 new PuestoHermano { PuestoId = 2, HermanoId = 5, FechaInicio = "2023-02-01", FechaFin = "2023-12-31" },
+            {
+                new PuestoHermano { PuestoId = 1, HermanoId = 3, FechaInicio = "2023-01-01", FechaFin = "2023-12-31" },
+                new PuestoHermano { PuestoId = 2, HermanoId = 5, FechaInicio = "2023-02-01", FechaFin = "2023-12-31" },
                 new PuestoHermano { PuestoId = 3, HermanoId = 2, FechaInicio = "2023-03-01", FechaFin = "2023-12-31" }
-        };
+            };
             foreach (PuestoHermano c in puestosHermanos)
             {
                 context.PuestoHermano.Add(c);

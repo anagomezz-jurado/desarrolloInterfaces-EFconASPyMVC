@@ -59,11 +59,9 @@ namespace EFconASPyMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Color,Talla,Material,FechaEntrega,Estado,HermanoId")] Tunica tunica)
         {
-           
-                _context.Add(tunica);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-           
+            _context.Add(tunica);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Tunicas/Edit/5
@@ -94,12 +92,10 @@ namespace EFconASPyMVC.Controllers
             {
                 return NotFound();
             }
-
-           
-                    _context.Update(tunica);
-                    await _context.SaveChangesAsync();
-              
-                return RedirectToAction(nameof(Index));
+            
+            _context.Update(tunica);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
            
         }
 

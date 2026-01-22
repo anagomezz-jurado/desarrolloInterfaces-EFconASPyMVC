@@ -56,13 +56,9 @@ namespace EFconASPyMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nombre,Cif,FechaFundacion,Ciudad")] Hermandad hermandad)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(hermandad);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(hermandad);
+            _context.Add(hermandad);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Hermandades/Edit/5
@@ -92,28 +88,11 @@ namespace EFconASPyMVC.Controllers
             {
                 return NotFound();
             }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(hermandad);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!HermandadExists(hermandad.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(hermandad);
+            
+            _context.Update(hermandad);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+          
         }
 
         // GET: Hermandades/Delete/5

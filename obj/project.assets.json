@@ -7355,11 +7355,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\EFconASPyMVC.csproj",
+      "projectUniqueName": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando EF convencional\\EFconASPyMVC\\EFconASPyMVC.csproj",
       "projectName": "EFconASPyMVC",
-      "projectPath": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\EFconASPyMVC.csproj",
+      "projectPath": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando EF convencional\\EFconASPyMVC\\EFconASPyMVC.csproj",
       "packagesPath": "C:\\Users\\anago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\obj\\",
+      "outputPath": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando EF convencional\\EFconASPyMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

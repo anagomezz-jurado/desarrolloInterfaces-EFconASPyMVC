@@ -2,20 +2,25 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center my-5">
+    <h1 class="display-4">Bienvenido</h1>
+    <p>Aprende más sobre <a href="https://learn.microsoft.com/aspnet/core" target="_blank">ASP.NET Core</a>.</p>
 </div>
 
-@Html.ActionLink("Lista de Hermandades", "Index", "Hermandades")
-<br />
-@Html.ActionLink("Lista de Hermanos", "Index", "Hermanos")
-<br />
-@Html.ActionLink("Lista de Tunicas", "Index", "Tunicas")
-
-<br />
-@Html.ActionLink("Lista de Puestos", "Index", "Puestos")
-<br />
-@Html.ActionLink("Lista de PuestosHermanos", "Index", "PuestoHermanos")
-
-
+<div class="list-group text-center">
+    <a class="list-group-item list-group-item-action" href="@Url.Action("Index", "Hermandades")">
+        Lista de Hermandades
+    </a>
+    <a class="list-group-item list-group-item-action" href="@Url.Action("Index", "Hermanos")">
+        Lista de Hermanos
+    </a>
+    <a class="list-group-item list-group-item-action" href="@Url.Action("Index", "Tunicas")">
+        Lista de Túnicas
+    </a>
+    <a class="list-group-item list-group-item-action" href="@Url.Action("Index", "Puestos")">
+        Lista de Puestos
+    </a>
+    <a class="list-group-item list-group-item-action" href="@Url.Action("Index", "PuestoHermanos")">
+        Lista de Puestos de Hermanos
+    </a>
+</div>

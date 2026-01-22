@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LLbhBXoUFH8=",
+  "dgSpecHash": "I4tlNzK9a8c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\EFconASPyMVC.csproj",
+  "projectFilePath": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando EF convencional\\EFconASPyMVC\\EFconASPyMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anago\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\anago\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -17,141 +17,141 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EFconASPyMVC
 build_property.RootNamespace = EFconASPyMVC
-build_property.ProjectDir = C:\Users\anago\OneDrive\Documentos\EFconASPyMVC\
+build_property.ProjectDir = C:\Users\anago\OneDrive\Documentos\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\usando EF convencional\EFconASPyMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\anago\OneDrive\Documentos\EFconASPyMVC
+build_property.MSBuildProjectDirectory = C:\Users\anago\OneDrive\Documentos\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\usando EF convencional\EFconASPyMVC
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Hermandades/Create.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Hermandades/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVybWFuZGFkZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Hermandades/Delete.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Hermandades/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVybWFuZGFkZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Hermandades/Details.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Hermandades/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVybWFuZGFkZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Hermandades/Edit.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Hermandades/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVybWFuZGFkZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Hermandades/Index.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Hermandades/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVybWFuZGFkZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Hermanos/Create.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Hermanos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVybWFub3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Hermanos/Delete.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Hermanos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVybWFub3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Hermanos/Details.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Hermanos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVybWFub3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Hermanos/Edit.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Hermanos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVybWFub3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Hermanos/Index.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Hermanos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVybWFub3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Home/Index.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Home/Privacy.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/PuestoHermanos/Create.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/PuestoHermanos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3RvSGVybWFub3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/PuestoHermanos/Delete.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/PuestoHermanos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3RvSGVybWFub3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/PuestoHermanos/Details.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/PuestoHermanos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3RvSGVybWFub3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/PuestoHermanos/Edit.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/PuestoHermanos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3RvSGVybWFub3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/PuestoHermanos/Index.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/PuestoHermanos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3RvSGVybWFub3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Puestos/Create.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Puestos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3Rvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Puestos/Delete.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Puestos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3Rvc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Puestos/Details.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Puestos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3Rvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Puestos/Edit.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Puestos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3Rvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Puestos/Index.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Puestos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3Rvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Shared/Error.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Tunicas/Create.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Tunicas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVuaWNhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Tunicas/Delete.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Tunicas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVuaWNhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Tunicas/Details.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Tunicas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVuaWNhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Tunicas/Edit.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Tunicas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVuaWNhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Tunicas/Index.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Tunicas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVuaWNhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/_ViewImports.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/_ViewStart.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anago/OneDrive/Documentos/EFconASPyMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/anago/OneDrive/Documentos/EF_ con ASP.Net Core MVC - Ana Gómez Jurado/usando EF convencional/EFconASPyMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2qsovuaz2m

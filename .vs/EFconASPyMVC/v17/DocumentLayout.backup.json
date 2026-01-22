@@ -1,30 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\",
+  "WorkspaceRootPath": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando EF convencional\\EFconASPyMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|c:\\users\\anago\\onedrive\\documentos\\efconaspymvc\\controllers\\tunicascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|solutionrelative:controllers\\tunicascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|c:\\users\\anago\\onedrive\\documentos\\efconaspymvc\\models\\tunica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|solutionrelative:models\\tunica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|c:\\users\\anago\\onedrive\\documentos\\efconaspymvc\\views\\tunicas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|c:\\users\\anago\\onedrive\\documentos\\ef_ con asp.net core mvc - ana g\u00F3mez jurado\\usando ef convencional\\efconaspymvc\\views\\tunicas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|solutionrelative:views\\tunicas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|c:\\users\\anago\\onedrive\\documentos\\efconaspymvc\\views\\tunicas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|solutionrelative:views\\tunicas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|c:\\users\\anago\\onedrive\\documentos\\efconaspymvc\\views\\tunicas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|solutionrelative:views\\tunicas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|c:\\users\\anago\\onedrive\\documentos\\efconaspymvc\\views\\tunicas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|solutionrelative:views\\tunicas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,87 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 329,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TunicasController.cs",
-              "DocumentMoniker": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\Controllers\\TunicasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TunicasController.cs",
-              "ToolTip": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\Controllers\\TunicasController.cs",
-              "RelativeToolTip": "Controllers\\TunicasController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwDIAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T12:05:37.653Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Tunica.cs",
-              "DocumentMoniker": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\Models\\Tunica.cs",
-              "RelativeDocumentMoniker": "Models\\Tunica.cs",
-              "ToolTip": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\Models\\Tunica.cs",
-              "RelativeToolTip": "Models\\Tunica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T12:16:34.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\Views\\Tunicas\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tunicas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\Views\\Tunicas\\Index.cshtml",
-              "RelativeToolTip": "Views\\Tunicas\\Index.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-20T12:16:27.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\Views\\Tunicas\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tunicas\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\Views\\Tunicas\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Tunicas\\Delete.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-20T12:16:21.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\Views\\Tunicas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tunicas\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\Views\\Tunicas\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Tunicas\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-20T12:16:19.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\Views\\Tunicas\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tunicas\\Details.cshtml",
-              "ToolTip": "C:\\Users\\anago\\OneDrive\\Documentos\\EFconASPyMVC\\Views\\Tunicas\\Details.cshtml",
-              "RelativeToolTip": "Views\\Tunicas\\Details.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-20T12:16:12.807Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -122,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando EF convencional\\EFconASPyMVC\\Views\\Tunicas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tunicas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando EF convencional\\EFconASPyMVC\\Views\\Tunicas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Tunicas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T16:02:09.184Z",
+              "EditorCaption": ""
             }
           ]
         }
