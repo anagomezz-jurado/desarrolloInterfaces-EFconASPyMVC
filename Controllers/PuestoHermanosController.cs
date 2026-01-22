@@ -29,7 +29,7 @@ namespace EFconASPyMVC.Controllers
         // GET: PuestoHermanos/Details/5
         public async Task<IActionResult> Details(int? puestoId, int? hermanoId)
         {
-            if (puestoId == null || hermanoId == null)
+            if (puestoId == null || hermanoId==null)
             {
                 return NotFound();
             }
@@ -37,7 +37,7 @@ namespace EFconASPyMVC.Controllers
             var puestoHermano = await _context.PuestoHermano
                 .Include(p => p.Hermano)
                 .Include(p => p.Puesto)
-                .FirstOrDefaultAsync(m => m.PuestoId == puestoId && m.HermanoId==hermanoId);
+                .FirstOrDefaultAsync(m => m.PuestoId == puestoId && m.HermanoId == hermanoId);
             if (puestoHermano == null)
             {
                 return NotFound();
@@ -61,15 +61,15 @@ namespace EFconASPyMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("PuestoId,HermanoId,FechaInicio,FechaFin")] PuestoHermano puestoHermano)
         {
-                _context.Add(puestoHermano);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+            _context.Add(puestoHermano);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: PuestoHermanos/Edit/5
         public async Task<IActionResult> Edit(int? puestoId, int? hermanoId)
         {
-            if (puestoId == null || hermanoId==null)
+            if (puestoId == null || hermanoId == null)
             {
                 return NotFound();
             }
@@ -79,8 +79,8 @@ namespace EFconASPyMVC.Controllers
             {
                 return NotFound();
             }
-            ViewData["HermanoId"] = new SelectList(_context.Hermano, "Id", "Id", puestoHermano.HermanoId);
-            ViewData["PuestoId"] = new SelectList(_context.Puesto, "Id", "Id", puestoHermano.PuestoId);
+            ViewData["HermanoId"] = new SelectList(_context.Hermano, "Id", "Nombre", puestoHermano.HermanoId);
+            ViewData["PuestoId"] = new SelectList(_context.Puesto, "Id", "NombrePuesto", puestoHermano.PuestoId);
             return View(puestoHermano);
         }
 
@@ -89,17 +89,16 @@ namespace EFconASPyMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int? puestoId, int? hermanoId,[Bind("PuestoId,HermanoId,FechaInicio,FechaFin")] PuestoHermano puestoHermano)
+        public async Task<IActionResult> Edit(int? puestoId, int? hermanoId, [Bind("PuestoId,HermanoId,FechaInicio,FechaFin")] PuestoHermano puestoHermano)
         {
             if (puestoId == null || hermanoId == null)
             {
                 return NotFound();
             }
 
-                    _context.Update(puestoHermano);
-                    await _context.SaveChangesAsync();
-             
-                return RedirectToAction(nameof(Index));
+            _context.Update(puestoHermano);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
            
         }
 
@@ -129,7 +128,7 @@ namespace EFconASPyMVC.Controllers
         public async Task<IActionResult> DeleteConfirmed(int? puestoId, int? hermanoId)
         {
             var puestoHermano = await _context.PuestoHermano.FindAsync(puestoId, hermanoId);
-            if (puestoId == null || hermanoId == null)
+            if (puestoHermano != null)
             {
                 _context.PuestoHermano.Remove(puestoHermano);
             }
@@ -138,9 +137,10 @@ namespace EFconASPyMVC.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool PuestoHermanoExists(int id)
+        private bool PuestoHermanoExists(int? puestoId, int? hermanoId)
         {
-            return _context.PuestoHermano.Any(e => e.PuestoId == id);
+            return _context.PuestoHermano.Any(e => e.PuestoId == puestoId && e.HermanoId == hermanoId);
+
         }
     }
 }

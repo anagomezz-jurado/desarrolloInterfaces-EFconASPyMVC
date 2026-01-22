@@ -62,6 +62,7 @@ namespace EFconASPyMVC.Controllers
             _context.Add(tunica);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+          
         }
 
         // GET: Tunicas/Edit/5
@@ -96,7 +97,7 @@ namespace EFconASPyMVC.Controllers
             _context.Update(tunica);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-           
+          
         }
 
         // GET: Tunicas/Delete/5

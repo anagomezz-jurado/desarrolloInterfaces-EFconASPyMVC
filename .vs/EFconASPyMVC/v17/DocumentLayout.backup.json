@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando EF convencional\\EFconASPyMVC\\",
+  "WorkspaceRootPath": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando Anotaciones y Fluent API\\EFconASPyMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|c:\\users\\anago\\onedrive\\documentos\\ef_ con asp.net core mvc - ana g\u00F3mez jurado\\usando ef convencional\\efconaspymvc\\views\\tunicas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8AE5CD02-3E71-411B-B63B-354C330E4D13}|EFconASPyMVC.csproj|solutionrelative:views\\tunicas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1B3CCC4D-E595-4493-9B00-89E06AB38310}|EFconASPyMVC.csproj|c:\\users\\anago\\onedrive\\documentos\\ef_ con asp.net core mvc - ana g\u00F3mez jurado\\usando anotaciones y fluent api\\efconaspymvc\\models\\tunica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B3CCC4D-E595-4493-9B00-89E06AB38310}|EFconASPyMVC.csproj|solutionrelative:models\\tunica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3CCC4D-E595-4493-9B00-89E06AB38310}|EFconASPyMVC.csproj|c:\\users\\anago\\onedrive\\documentos\\ef_ con asp.net core mvc - ana g\u00F3mez jurado\\usando anotaciones y fluent api\\efconaspymvc\\models\\puesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B3CCC4D-E595-4493-9B00-89E06AB38310}|EFconASPyMVC.csproj|solutionrelative:models\\puesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3CCC4D-E595-4493-9B00-89E06AB38310}|EFconASPyMVC.csproj|c:\\users\\anago\\onedrive\\documentos\\ef_ con asp.net core mvc - ana g\u00F3mez jurado\\usando anotaciones y fluent api\\efconaspymvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B3CCC4D-E595-4493-9B00-89E06AB38310}|EFconASPyMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 329,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando Anotaciones y Fluent API\\EFconASPyMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando Anotaciones y Fluent API\\EFconASPyMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T15:25:28.341Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -27,15 +48,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando EF convencional\\EFconASPyMVC\\Views\\Tunicas\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Tunicas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando EF convencional\\EFconASPyMVC\\Views\\Tunicas\\Index.cshtml",
-              "RelativeToolTip": "Views\\Tunicas\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T16:02:09.184Z",
+              "Title": "Tunica.cs",
+              "DocumentMoniker": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando Anotaciones y Fluent API\\EFconASPyMVC\\Models\\Tunica.cs",
+              "RelativeDocumentMoniker": "Models\\Tunica.cs",
+              "ToolTip": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando Anotaciones y Fluent API\\EFconASPyMVC\\Models\\Tunica.cs",
+              "RelativeToolTip": "Models\\Tunica.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T15:31:39.539Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Puesto.cs",
+              "DocumentMoniker": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando Anotaciones y Fluent API\\EFconASPyMVC\\Models\\Puesto.cs",
+              "RelativeDocumentMoniker": "Models\\Puesto.cs",
+              "ToolTip": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana G\u00F3mez Jurado\\usando Anotaciones y Fluent API\\EFconASPyMVC\\Models\\Puesto.cs",
+              "RelativeToolTip": "Models\\Puesto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T15:31:35.196Z"
             }
           ]
         }

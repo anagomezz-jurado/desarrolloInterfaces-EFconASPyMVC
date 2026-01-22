@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<EFconASPyMVC.Models.PuestoHermano>
 
 @{
-    ViewData["Title"] = "Lista de Puestos de Hermanos";
+    ViewData["Title"] = "Index";
 }
 
-<h1>Lista de Puestos de Hermanos</h1>
+<h1>Index</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -37,7 +37,7 @@
                 @Html.DisplayFor(modelItem => item.FechaFin)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Puesto.NombrePuesto)
+                @Html.DisplayFor(modelItem => item.Puesto.Descripcion)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Hermano.Nombre)

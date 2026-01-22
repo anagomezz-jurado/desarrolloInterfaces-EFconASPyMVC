@@ -7,7 +7,7 @@ namespace EFconASPyMVC.Context
     {
         public static void Initialize(MyDbContext context)
         {
-            context.Database.EnsureCreated(); //este método nos crea automáticamente
+            //context.Database.EnsureCreated(); //este método nos crea automáticamente
                                               //la BD sin migraciones, pero éstas son preferibles por si nuestro modelo
                                               //se va modificando
                                               // Comprueba si hay algún instituto
@@ -15,8 +15,6 @@ namespace EFconASPyMVC.Context
             {
                 return; // BD ya ha sido inicializada
             }
-
-
 
             //Añado Hermandaddes 
             var hermandades = new Hermandad[]
@@ -31,6 +29,7 @@ namespace EFconASPyMVC.Context
             {
                 context.Hermandad.Add(i);
             }
+
             context.SaveChanges();
 
 
@@ -49,6 +48,7 @@ namespace EFconASPyMVC.Context
             {
                 context.Hermano.Add(h);
             }
+
             context.SaveChanges();
 
 
@@ -59,12 +59,13 @@ namespace EFconASPyMVC.Context
                 new Tunica { Color="Azul", Talla="L", Material="Seda", FechaEntrega="2026-01-22", Estado=true, HermanoId=3 },
                 new Tunica { Color="Blanco", Talla="S", Material="Lino", FechaEntrega="2026-01-25", Estado=false, HermanoId=1 },
                 new Tunica { Color="Verde", Talla="XL", Material="Poliéster", FechaEntrega="2026-01-28", Estado=true, HermanoId=4 },
-                new Tunica { Color="Negro", Talla="M", Material="Algodón", FechaEntrega="2026-02-01", Estado=false, HermanoId=2 },
+                new Tunica { Color="Negro", Talla="M", Material="Algodón", FechaEntrega="2026-02-01", Estado=false, HermanoId=5 },
             };
             foreach (Tunica h in tunicas)
             {
                 context.Tunica.Add(h);
             }
+
             context.SaveChanges();
 
 
@@ -83,14 +84,15 @@ namespace EFconASPyMVC.Context
             {
                 context.Puesto.Add(d);
             }
+
             context.SaveChanges();
 
 
             //Añado PuestoHermano
             var puestosHermanos = new PuestoHermano[]
             {
-                new PuestoHermano { PuestoId = 1, HermanoId = 3, FechaInicio = "2023-01-01", FechaFin = "2023-12-31" },
-                new PuestoHermano { PuestoId = 2, HermanoId = 5, FechaInicio = "2023-02-01", FechaFin = "2023-12-31" },
+                 new PuestoHermano { PuestoId = 1, HermanoId = 3, FechaInicio = "2023-01-01", FechaFin = "2023-12-31" },
+                 new PuestoHermano { PuestoId = 2, HermanoId = 5, FechaInicio = "2023-02-01", FechaFin = "2023-12-31" },
                 new PuestoHermano { PuestoId = 3, HermanoId = 2, FechaInicio = "2023-03-01", FechaFin = "2023-12-31" }
             };
             foreach (PuestoHermano c in puestosHermanos)

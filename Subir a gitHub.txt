@@ -12,5 +12,5 @@
 
 Ahora para subir cambios o modificaciones y que este completo pongo los siguientes comandos una vez dentro de la carpeta
 - git add .
-- git commit -m "Usando EF convencional"
+- git commit -m "Usando Anotaciones y Fluent API"
 - git push

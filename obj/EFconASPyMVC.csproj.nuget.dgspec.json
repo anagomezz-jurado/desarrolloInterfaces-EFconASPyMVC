@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando EF convencional\\EFconASPyMVC\\EFconASPyMVC.csproj": {}
+    "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando Anotaciones y Fluent API\\EFconASPyMVC\\EFconASPyMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando EF convencional\\EFconASPyMVC\\EFconASPyMVC.csproj": {
+    "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando Anotaciones y Fluent API\\EFconASPyMVC\\EFconASPyMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando EF convencional\\EFconASPyMVC\\EFconASPyMVC.csproj",
+        "projectUniqueName": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando Anotaciones y Fluent API\\EFconASPyMVC\\EFconASPyMVC.csproj",
         "projectName": "EFconASPyMVC",
-        "projectPath": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando EF convencional\\EFconASPyMVC\\EFconASPyMVC.csproj",
+        "projectPath": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando Anotaciones y Fluent API\\EFconASPyMVC\\EFconASPyMVC.csproj",
         "packagesPath": "C:\\Users\\anago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando EF convencional\\EFconASPyMVC\\obj\\",
+        "outputPath": "C:\\Users\\anago\\OneDrive\\Documentos\\EF_ con ASP.Net Core MVC - Ana Gómez Jurado\\usando Anotaciones y Fluent API\\EFconASPyMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,9 +50,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.3.8, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.22, )"
+              "version": "[8.0.23, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -63,6 +67,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.23, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [

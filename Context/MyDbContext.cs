@@ -15,6 +15,12 @@ namespace EFconASPyMVC.Context
         {
             //Clave primaria compuesta de PuestoHermano
             modelBuilder.Entity<PuestoHermano>().HasKey(ph => new { ph.PuestoId, ph.HermanoId });
+
+            //Relacion 1-1 Hermano-Tunica
+            modelBuilder.Entity<Hermano>()
+                .HasOne(h => h.Tunica)
+                .WithOne(t => t.Hermano)
+                .HasForeignKey<Tunica>(t => t.HermanoId);
         }
 
         //creamos una tabla llamada Hermandad a partir de nuestra clase Hermandad
